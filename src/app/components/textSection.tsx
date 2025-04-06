@@ -1,22 +1,12 @@
 import React from 'react'
 
-import { Spicy_Rice } from "next/font/google";
 import { Merriweather } from "next/font/google"
-import { Berkshire_Swash } from 'next/font/google';
 import { PiSnowflakeBold } from 'react-icons/pi';
 const merriweather = Merriweather({
     subsets: ['latin'],
     weight: ['400', '700', '900']
 })
 
-const spicyRice = Spicy_Rice({
-    subsets: ['latin'],
-    weight: ['400']
-})
-const berkshire = Berkshire_Swash({
-    subsets: ['latin'],
-    weight: ['400']
-})
 function TextSection() {
     return (
         <div className='w-[90%] sm:w-[40%] xl:w-1/2 text-white text-center z-10'>
