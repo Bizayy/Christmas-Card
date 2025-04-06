@@ -1,11 +1,6 @@
 import Image from "next/image"
-import { Spicy_Rice } from "next/font/google";
 import TextSection from "./textSection";
 
-const spicyRice = Spicy_Rice({
-    subsets: ['latin'],
-    weight: ['400']
-})
 export const MainCard = () => {
 
     return (
